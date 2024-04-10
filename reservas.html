@@ -33,6 +33,21 @@
             <h2>Asiento ID</h2>
             <ul id="Asiento-list"></ul>
         </section>
+        <h2>Realizar Cambios</h2>
+    <form id="cambios-form">
+        <label for="N-Asiento">Numero de asiento:</label>
+        <input type="number" id="N-Asiento" name="N-Asiento" required><br><br>
+        
+        <label for="ID-Vuelo">Id del vuelo:</label>
+        <input type="number" id="ID-Vuelo" name="ID-Vuelo" required><br><br>
+
+        <button type="submit" onclick="GuardarCambios()">Guardar Cambios</button>
+    </form>
+
+    <h2>Eliminar Último Registro</h2>
+    <form id="eliminar-form">
+        <button type="button" onclick="DeleteLast()">Eliminar Último Registro</button>
+    </form>
     </main>
     <script type="module" src="connector.js"></script>
 </body>

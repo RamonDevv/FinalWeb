@@ -344,7 +344,7 @@ async function ShowEnombreinfo () {
 
 
 //Funciones de Delete
-          
+
 
 //Aeropuertos
 ShowNombreInfo();
@@ -389,7 +389,7 @@ ShowDuracioninfo();
 //Crud Update
 
 
-//Crud Delete
+
 
 console.log('eto funciona')
 
