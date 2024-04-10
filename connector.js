@@ -337,6 +337,14 @@ async function ShowEnombreinfo () {
   } 
   } 
 
+//funciones de Insert
+
+
+//Funciones de Update
+
+
+//Funciones de Delete
+          
 
 //Aeropuertos
 ShowNombreInfo();
@@ -376,6 +384,12 @@ ShowFechaDinfo();
 ShowDuracioninfo();
 
 //CRUD Create
+
+
+//Crud Update
+
+
+//Crud Delete
 
 console.log('eto funciona')
 
